@@ -105,6 +105,15 @@ on_key_press(GtkWidget *terminal, GdkEventKey *event, gpointer user_data)
 		case GDK_KEY_V:
 			vte_terminal_paste_clipboard(VTE_TERMINAL(terminal));
 			return TRUE;
+		case GDK_KEY_C:
+			vte_terminal_copy_clipboard_format(VTE_TERMINAL(terminal), 1);
+			return TRUE;
+		case GDK_KEY_K:
+			vte_terminal_copy_primary(VTE_TERMINAL(terminal));
+			return TRUE;
+		case GDK_KEY_P:
+			vte_terminal_paste_primary(VTE_TERMINAL(terminal));
+			return TRUE;
 		}
 		/* fallthrough */
 	case GDK_CONTROL_MASK:
