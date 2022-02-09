@@ -17,6 +17,7 @@ Features
  - dabbrev-expand (mapped on `Alt-/`)
  - Copy & paste to clipboard.
  - Copy & paste to primary.
+ - Run on Wayland and X11.
 
 Installation
 ------------
