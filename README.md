@@ -6,6 +6,8 @@ of them are based on VTE, a library implementing a terminal emulator
 widget for GTK+. Some are highly configurable, some are small but none
 of them match exactly my expectations.
 
+![Vbeterm](https://github.com/lidgnulinux/vbeterm/blob/master/vbeterm.png "Vbeterm")
+
 Features
 --------
 
