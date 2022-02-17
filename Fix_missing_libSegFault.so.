@@ -1,1 +1,0 @@
-You can remove **-lSegFault** at line 292 and the compiling should be fine.
